@@ -6,7 +6,7 @@ const gptCommands =
 
 ///////////////////////////////GPT COMMANDS ABOVE
 
-const API_KEY = "sk-keyyyyyyyyyyyyyy";
+const API_KEY = "sk-myapi key";
 const searchResults = document.querySelector(".search_results");
 searchResults.addEventListener("click", sendMessage);
 let gptResult;
