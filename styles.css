@@ -1,0 +1,139 @@
+/* Your CSS styles for the chat interface */
+body {
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    background-image: url("backg.jpg");
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-blend-mode: lighten;
+
+}
+header{ 
+    
+    text-align: center;
+    
+   } 
+
+nav ul {
+    padding: 5px 200px;
+    text-shadow: #fff;
+    list-style-type: none;
+    text-align: center;
+}
+  
+
+nav li {
+    float:left ;
+}
+
+nav a {
+    text-align:center;
+    display: block;
+    padding: 8px 110px;
+    text-decoration:wavy;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+nav a:hover {
+
+    background-color: #ddd;
+    color: black;
+    list-style-type: none;
+}
+
+
+h2{
+    margin: 50px;
+    padding-top: 150px;
+    color: white;
+
+}
+p{
+  margin: 10px;
+  align-items: center;
+  color: white;
+}
+
+.about-us{
+    margin: 10px auto;
+    max-width: 700px;
+    
+}
+
+
+.chat-window {
+    max-width: 700px;
+    margin: 165px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgba(137, 8, 8, 0.158);
+    text-align: left;
+}
+
+.chat-container {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+
+}
+
+
+.chat-bubble {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 2px/50%;
+    max-width: 60%;
+    align-items: flex-start;
+    clear: both;
+}
+
+.chat-bubble.bot {
+    background-color:rgb(118, 60, 60);
+    float: left;
+    align-self:flex-start;
+    color: white;
+}
+
+.chat-bubble.user {
+    
+    float: right;
+    align-self: flex-end;
+    color: white;
+    background-color:rgb(118, 60, 60);
+}
+
+.user-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid white;
+    color: white;
+}
+
+.user-input input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px rgb(118, 60, 60);
+    background-color: rgba(137, 8, 8, 0.158);
+    margin-right: 10px;
+    outline: none;
+    color: white;
+    
+}
+
+.user-input button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color:white;
+    outline: none;
+}
